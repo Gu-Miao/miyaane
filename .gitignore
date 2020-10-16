@@ -1,2 +1,8 @@
 # Dependency directories
 node_modules/
+
+# build
+build
+
+# app dist
+dist
