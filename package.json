@@ -1,0 +1,23 @@
+{
+  "name": "miyaane",
+  "version": "0.1.0",
+  "description": "front end tool kits",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gu-Miao/miyaane.git"
+  },
+  "keywords": [
+    "front-end",
+    "electron",
+    "react"
+  ],
+  "author": {
+    "name": "GuTianhuang",
+    "email": "gutianhuang@foxmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gu-Miao/miyaane/issues"
+  },
+  "homepage": "https://github.com/Gu-Miao/miyaane#readme",
