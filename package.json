@@ -43,7 +43,7 @@
   "scripts": {
     "start:react": "cross-env PORT=$npm_package_config_port BROWSER=none PUBLIC_URL=$npm_package_config_public craco start",
     "start:ele": "nodemon --config nodemon.json",
-    "start": "node ./scripts/start.js"
+    "start": "node scripts/start.js"
   },
   "devDependencies": {
     "@craco/craco": "^5.7.0",
