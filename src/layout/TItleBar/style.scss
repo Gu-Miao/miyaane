@@ -1,0 +1,45 @@
+#title-bar {
+  height: 4.2rem;
+  background: #333;
+  -webkit-app-region: drag;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .title {
+    color: #fff;
+    padding-left: 1rem;
+  }
+  .traffic-group {
+    -webkit-app-region: no-drag;
+    align-self: flex-start;
+    display: flex;
+    .traffic-button {
+      border: none;
+      box-shadow: none;
+      outline: none;
+      cursor: pointer;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 3.6rem;
+      height: 3.6rem;
+      transition: background-color 0.25s ease-in-out;
+      &:hover {
+        background: #666;
+        img {
+          filter: brightness(0);
+        }
+        &:last-of-type {
+          background: #eb2f06;
+          img {
+            filter: brightness(100);
+          }
+        }
+      }
+      img {
+        width: 1.2rem;
+      }
+    }
+  }
+}
