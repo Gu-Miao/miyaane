@@ -37,10 +37,11 @@
     ]
   },
   "config": {
-    "port": "8888"
+    "port": "8888",
+    "public": "."
   },
   "scripts": {
-    "start:react": "cross-env PORT=$npm_package_config_port BROWSER=none craco start",
+    "start:react": "cross-env PORT=$npm_package_config_port BROWSER=none PUBLIC_URL=$npm_package_config_public craco start",
     "start:ele": "nodemon --config nodemon.json",
     "start": "node ./scripts/start.js"
   },
