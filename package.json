@@ -20,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/Gu-Miao/miyaane/issues"
   },
+  "homepage": "https://github.com/Gu-Miao/miyaane#readme",
   "eslintConfig": {
     "extends": "react-app"
   },
